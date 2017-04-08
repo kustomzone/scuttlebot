@@ -69,9 +69,6 @@
     "ssb-msg-schemas": "~3.2.0",
     "tape": "~4.0.0"
   },
-  "bin": {
-    "sbot": "./sbot.js"
-  },
   "scripts": {
     "test": "set -e; for t in test/*.js; do node $t; done"
   },
